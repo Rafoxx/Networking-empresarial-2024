@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresarial Connect 2024</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Empresarial Connect 2024</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#registro">Registro</a>
+                </li>
+                <li>
+                    <a href="#palestras">palestrantes</a>
+                </li>
+                <li>
+                    <a href="#info">Informações</a>
+                </li>
+                <li>
+                    <a href="#faq">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="#registro">
+        <h2>Registrar-se:</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="Nome" class="form-label">Nome Completo:</label>
+                <input required type="text" class="form-control" id="Nome">
+            </div>
+        <div class="col-md-6">
+            <label for="Emai" class="form-label">Email:</label>
+            <input required type="email" class="form-control" id="Email">
+        </div>
+        <div class="col-md-6">
+            <label for="Empresa" class="form-label">Empresa:</label>
+            <input required type="text" class="form-control" id="Empresa">
+        </div>
+        <div class="col-md-4">
+            <label for="Cargo" class="form-label">Cargo:</label>
+            <select id="Cargo" class="form-select">
+            <option selected>CEO</option>
+            <option>Diretor de Marketing</option>
+            <option>Gerente de Recursos Humanos</option>
+            <option>Analista Financeiro</option>
+            <option>Engenheiro de Software</option>
+            <option>Outro</option>
+        </select>
+        </div>
+        <div class="col-md-2">
+            <label for="Outro" class="form-label">Qual:</label>
+            <input type="text" class="form-control" id="Outro">
+        </div>
+        <div class="col-12">
+        <div class="form-check">
+            <input required class="Termos" type="checkbox" id="Termos">
+            <label class="form-check-label" for="Termos">
+            Aceito os termos e  diretrizes do evento
+            </label>
+        </div>
+        </div>
+        <div  class="col-12">
+            <button aria-required="true" type="submit" class="btn btn-primary">Registrar-se</button>
+        </div>
+        </form>
+    </section>
+
+    <section id="palestras">
+        <h2>Palestrantes</h2>
+        <h3>Bill Gates</h3>
+        <div class="ceos">
+            <img src="./palestras/bill.jpg" alt="Bill Gates">
+            <p>William Henry Gates III, mais conhecido como Bill Gates, nasceu em 28 de outubro de 1955, em Seattle, Washington, EUA. Ele é um empresário, filantropo e pioneiro da tecnologia. Co-fundador da Microsoft Corporation, Gates é reconhecido como uma das figuras mais influentes no mundo da tecnologia. Ele liderou a revolução dos computadores pessoais, transformando a Microsoft em uma das maiores e mais bem-sucedidas empresas de software do mundo. Após deixar o cargo de CEO da Microsoft, dedicou-se principalmente às atividades filantrópicas por meio da Bill & Melinda Gates Foundation, trabalhando para melhorar a saúde global, a educação e reduzir a desigualdade.</p>
+        </div>
+        <h3>Cristina Junqueira</h3>
+        <div class="ceos">
+            <img src="./palestras/Cristina.jpg" alt="Cristina Junqueira">
+            <p>Cristina Junqueira é uma empreendedora brasileira e co-fundadora da Nubank, uma das fintechs mais inovadoras e bem-sucedidas do Brasil. Com formação em administração de empresas e passagens por grandes instituições financeiras, Junqueira desafiou o status quo ao fundar o Nubank em 2013, com o objetivo de reinventar a experiência bancária para os consumidores brasileiros. Sob sua liderança como vice Junqueira desempenhou um papel fundamental no crescimento e na consolidação do Nubank como uma das empresas mais disruptivas do setor financeiro</p>
+        </div>
+        <h3>Fabio Coelho</h3>
+        <div class="ceos">
+            <img src="palestras/fabio.jpg" alt="Fabio Coelho">
+            <p>Fábio Coelho é um líder empresarial brasileiro, reconhecido por sua expertise em tecnologia e inovação. Ele é o atual vice-presidente do Google para a América Latina. Com uma carreira sólida na indústria de tecnologia, Coelho desempenhou um papel fundamental na expansão e consolidação do Google na região, promovendo iniciativas para o desenvolvimento digital e o empreendedorismo. Sua vasta experiência e visão estratégica o tornam uma figura de destaque no cenário empresarial latino-americano.</p>
+        </div>
+    </section>
+
+    <section id="#info">
+        <h2>Informações do evento</h2>
+        <p>Data: 15 de Maio de 2024</p>
+        <p>O Networking Empresarial Connect 2024 é um evento exclusivo projetado para conectar profissionais e empresas de diversos setores, proporcionando oportunidades únicas de networking, colaboração e crescimento. Com palestras inspiradoras, sessões interativas e momentos dedicados à troca de contatos, o evento visa fortalecer as relações comerciais e impulsionar o desenvolvimento profissional</p>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <h6> Qual é o objetivo do Networking Empresarial Connect 2024?</h6>
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>O Networking Empresarial Connect 2024 é um evento projetado para conectar profissionais e empresas, proporcionando oportunidades de networking, colaboração e crescimento profissional.</p>
+                </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h6>Quem deve participar do evento?</h6>
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>O evento é aberto a profissionais de todos os setores e níveis de experiência, desde empreendedores individuais até executivos de grandes empresas.</p>
+                </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h6>Quais são os benefícios de participar do Networking Empresarial Connect 2024?</h6>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>participantes terão a oportunidade de expandir suas redes de contatos, aprender com palestras inspiradoras, participar de sessões interativas e colaborar com outros profissionais e empresas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a target="_blank" href="https://www.facebook.com"><img src="./img/facebook (2).png" alt="logo facebook"></a>
+        <a target="_blank" href="https://www.instagram.com"><img src="./img/instagram (2).png" alt="logo instagram"></a>
+        <a target="_blank" href="https://www.youtube.com/"><img src="./img/youtube (1).png" alt="logo youtube"></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
